@@ -16,7 +16,7 @@ public class AmazonCartDefinitions {
 	@Given("User is on Amazon Page")
 	public void user_is_on_amazon_page() {
 	    driver=new ChromeDriver();
-	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	   // driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	    driver.get("https://www.amazon.in/");
 	}
 
