@@ -1,4 +1,4 @@
-Feature:Amazon Cart page Validation
+Feature: Amazon Cart page Validation
 
 
 Scenario: Adding an item in cart and verifying sub total
